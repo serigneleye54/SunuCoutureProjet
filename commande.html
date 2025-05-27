@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>commande, mesure-sunu couture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="commande.html">Commande</a>
+        <a href="a_propos.html">A_propos</a>
+        <a href="galerie.html">Galerie</a>
+    </header>
+    <h1>commandes et prise de mesure</h1>
+    <fieldset>
+        <legend>commandes</legend>
+        <label for="commande">Rediger ici vos commandes</label>
+        <textarea id="commande" rows="6" autofocus required></textarea>
+    </fieldset>
+
+    <fieldset>
+        <legend>Mesure</legend>
+        <label for="text">tour de taille</label>
+        <input type="text" name="taille" id="taille">
+        <label for="text">tour de hanche</label>
+        <input type="text" name="hanche" id="hanche">
+        <label for="text">longueur souhaiter</label>
+        <input type="text" name="longueur" id="longueur">
+        <label for="text">couleur souhaiter</label>
+        <input type="text" name="couleur" id="couleur">
+    </fieldset>
+
+    <section>
+       <form action="" method="get">
+            <fieldset>
+              <legend>vos coordonnees</legend>
+              <label for="prenom">Prenom</label>
+              <input type="text" name="prenom" id="prenom">
+              <label for="nom">Nom de famille</label>
+              <input type="text" name="nom" id="nom">
+              <label for="email">email</label>
+              <input type="email" name="email" id="email" required >
+              <label for="tel">telephone</label>
+              <input type="tel" name="tel" id="tel">
+            </fieldset>
+
+            <fieldset>
+                <legend>Contact</legend>
+                <p>comment souhaitez vous etre contacte?</p>
+                <input type="radio" name="preference" value="tel" id="tel"/>
+                <label for="tel">par telephone</label>
+                <input type="radio" name="preference" value="mail" id="mail"/>
+                <label for="mail">par mail</label>
+                <input type="radio" name="preference" value="courrier" id="courrier"/>
+                <label for="courrier">par courrier postal</label>
+            </fieldset>
+
+            <fieldset>
+                <input class="btn-envoyer" type="submit" value="Envoyer"/>
+            </fieldset>
+       </form>
+    </section>
+     <footer>
+        <a href="commande.html">Commande</a>
+        <a href="a_propos.html">A_propos</a>
+        <a href="galerie.html">Galerie</a>
+    </footer> 
+</body>
+</html>
