@@ -64,3 +64,23 @@ legend{
     background-color: #3e8e41;
     transition: scale(0.98);
 }
+select{
+    font-size: 16px;
+    padding: 1px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:white;
+    cursor: pointer;
+}
+select :hover{
+    border-color: white;
+}
+select :focus{
+    outline: none;
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+div input{
+    padding: 5px;
+    width: 50px;
+}

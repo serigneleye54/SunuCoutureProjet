@@ -5,55 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>commande, mesure-sunu couture</title>
     <link rel="stylesheet" href="style.css">
+     <link rel="icon" href="image/logo.png" type="image/.png">
+</head>
 </head>
 <body>
     <header>
-        <a href="commande.html">Commande</a>
+        <a href="index.html">Accueille</a>
         <a href="a_propos.html">A_propos</a>
         <a href="galerie.html">Galerie</a>
     </header>
     <h1>commandes et prise de mesure</h1>
-    <fieldset>
-        <legend>commandes</legend>
-        <label for="commande">Rediger ici vos commandes</label>
-        <textarea id="commande" rows="6" autofocus required></textarea>
-    </fieldset>
-
-    <fieldset>
-        <legend>Mesure</legend>
-        <label for="text">tour de taille</label>
-        <input type="text" name="taille" id="taille">
-        <label for="text">tour de hanche</label>
-        <input type="text" name="hanche" id="hanche">
-        <label for="text">longueur souhaiter</label>
-        <input type="text" name="longueur" id="longueur">
-        <label for="text">couleur souhaiter</label>
-        <input type="text" name="couleur" id="couleur">
-    </fieldset>
 
     <section>
        <form action="" method="get">
             <fieldset>
-              <legend>vos coordonnees</legend>
-              <label for="prenom">Prenom</label>
-              <input type="text" name="prenom" id="prenom">
-              <label for="nom">Nom de famille</label>
+              <legend>Chanps requis:</legend>
+              <label for="nom">Nom</label>
               <input type="text" name="nom" id="nom">
-              <label for="email">email</label>
+              <label for="prenom">Prenom</label>
+              <input type="text" name="prenom" id="prenom"><br>
+              <label for="email">Email</label>
               <input type="email" name="email" id="email" required >
-              <label for="tel">telephone</label>
-              <input type="tel" name="tel" id="tel">
-            </fieldset>
+              <label for="tel">Telephone</label>
+              <input type="tel" name="tel" id="tel"><br>
+        <label for="choix">Type de vetements:</label>
+        <select name="choix" id="choix">
+            <option value="option1">Robe</option>
+            <option value="option2">Chemise masse longue</option>
+            <option value="option2">Chemise masse courte</option>
+            <option value="option3">Pantalon</option>
+            <option value="option4">Jeanne</option>
+        </select><br>
+    <div>
+        <label for="text">Tour de hanche</label>
+        <input type="text" name="hanche" id="hanche"><br>
+        <label for="text">Longueur souhaiter</label>
+        <input type="text" name="longueur" id="longueur">
+        </fieldset>
+
+        <fieldset>
+            <legend>Champs non requis</legend>
+            <label for="text">Couleur souhaiter</label>
+            <input type="text" name="couleur" id="couleur">
+
+        </fieldset>
+    </div>
+    </fieldset>
 
             <fieldset>
                 <legend>Contact</legend>
-                <p>comment souhaitez vous etre contacte?</p>
+                <p>Comment souhaitez vous etre contacte?</p>
                 <input type="radio" name="preference" value="tel" id="tel"/>
-                <label for="tel">par telephone</label>
+                <label for="tel">Par Telephone</label>
                 <input type="radio" name="preference" value="mail" id="mail"/>
-                <label for="mail">par mail</label>
+                <label for="mail">Par mail</label>
                 <input type="radio" name="preference" value="courrier" id="courrier"/>
-                <label for="courrier">par courrier postal</label>
+                <label for="courrier">Par courrier postal</label>
             </fieldset>
 
             <fieldset>
@@ -62,7 +69,7 @@
        </form>
     </section>
      <footer>
-        <a href="commande.html">Commande</a>
+        <a href="index.html">Accueille</a>
         <a href="a_propos.html">A_propos</a>
         <a href="galerie.html">Galerie</a>
     </footer> 
