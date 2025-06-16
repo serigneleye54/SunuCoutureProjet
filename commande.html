@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>commande, mesure-sunu couture</title>
     <link rel="stylesheet" href="style.css">
-     <link rel="icon" href="images/logo.png" type="image/.png">
+    <link rel="icon" href="images/logo.png" type="images/.png">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
 </head>
 </head>
 <body>
@@ -21,13 +24,13 @@
             <fieldset>
               <legend>Chanps requis:</legend>
               <label for="nom">Nom</label>
-              <input type="text" name="nom" id="nom">
+              <input type="text" name="nom" id="nom" autofocus required>
               <label for="prenom">Prenom</label>
-              <input type="text" name="prenom" id="prenom"><br>
+              <input type="text" name="prenom" id="prenom" required><br>
               <label for="email">Email</label>
               <input type="email" name="email" id="email" required >
               <label for="tel">Telephone</label>
-              <input type="tel" name="tel" id="tel"><br>
+              <input type="tel" name="tel" id="tel" required><br>
         <label for="choix">Type de vetements:</label>
         <select name="choix" id="choix">
             <option value="option1">Robe</option>
@@ -39,14 +42,18 @@
     <div>
         <label for="text">Tour de hanche</label>
         <input type="text" name="hanche" id="hanche"><br>
-        <label for="text">Longueur souhaiter</label>
+        <label for="text">Longueur souhaitée</label>
         <input type="text" name="longueur" id="longueur">
         </fieldset>
 
         <fieldset>
             <legend>Champs non requis</legend>
-            <label for="text">Couleur souhaiter</label>
-            <input type="text" name="couleur" id="couleur">
+            <label for="text">Couleur souhaitée</label>
+            <input type="text" name="couleur" id="couleur"><br>
+
+
+            <label for="precisions">Commentaires supplémentaires:</label>
+            <textarea name="precisions" id="precisions" cols="40" rows="4"></textarea>
 
         </fieldset>
     </div>
@@ -54,7 +61,7 @@
 
             <fieldset>
                 <legend>Contact</legend>
-                <p>Comment souhaitez vous etre contacte?</p>
+                <p>Comment souhaitez vous etre contacter?</p>
                 <input type="radio" name="preference" value="tel" id="tel"/>
                 <label for="tel">Par Telephone</label>
                 <input type="radio" name="preference" value="mail" id="mail"/>
@@ -72,6 +79,19 @@
         <a href="index.html">Accueille</a>
         <a href="a_propos.html">A_propos</a>
         <a href="galerie.html">Galerie</a>
+
+    <a href="https://www.facebook.com/votreprofil" target="_blank" style="text-decoration: none;">
+        <i class="fab fa-facebook" style="font-size: 24px; color: #4267B2;"></i>
+    </a>
+    <a href="https://www.twitter.com/votreprofil" target="_blank" style="text-decoration: none; margin-left: 10px;">
+        <i class="fab fa-twitter" style="font-size: 24px; color: #1DA1F2;"></i>
+    </a>
+    <a href="https://www.instagram.com/votreprofil" target="_blank" style="text-decoration: none; margin-left: 10px;">
+        <i class="fab fa-instagram" style="font-size: 24px; color: #C13584;"></i>
+    </a>
+
+    <p>Fait avec ❤️ par [serigne leye]</p>
+
     </footer> 
 </body>
 </html>
