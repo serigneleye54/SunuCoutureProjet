@@ -4,4 +4,4 @@ Sunu Couture est un atelier internationnale qui fabrique une couture de haut niv
  il parvient meme a exporter des produits de qualite dans les plus grand marche mondial.Ces produits sachettent 
  par des grands hommes comme des footballeurs internationnaux.
 
- DEvelopper par serigne leye
+ DEvelopper par SERIGNE LEYE
